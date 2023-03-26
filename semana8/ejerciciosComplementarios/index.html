@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Basicas</title>
+</head>
+<body>
+    <!-- conectado al archivo operaciones.php -->
+    <form action="operaciones.php" method="post">
+        <p>ingrese el valor 1</p>
+        <input type="number" name="num1" id="num1"><br>
+        <p>ingrese el valor 2</p>
+        <input type="number" name="num2" id="num2"><br>
+        <p>Seleccione la operacion a realizar</p>
+        <select name="operaciones" id="">
+            <option value="sumar">SUMAR</option>
+            <option value="restar">RESTAR</option>
+            <option value="multiplicar">MULTIPLICAR</option>
+            <option value="dividir">DIVIDIR</option>
+        </select><br>
+        <input type="submit" name="enviar" value="procesar">
+    </form>
+    <b></b>
+</body>
+</html>
